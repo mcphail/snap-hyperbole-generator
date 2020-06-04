@@ -1,0 +1,20 @@
+name: snap-hyperbole-generator
+base: core18 # the base snap is the execution environment for this snap
+version: '0.1' # just for humans, typically '1.2+git' or '1.3.2'
+summary: Provides inspirational quotes about snaps for teh interwebz
+description: |
+  If you're tired of having to post the same old bile about snaps in your
+  favourite reddit ghetto or message board, allow this handy utility to
+  generate valid criticism about the format and relevant personalities!
+
+grade: stable
+confinement: strict
+
+parts:
+  main:
+    plugin: autotools
+    source: src
+
+apps:
+  snap-hyperbole-generator:
+    command: hyperbole
