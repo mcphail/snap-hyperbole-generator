@@ -6,7 +6,10 @@
 #include "action.h"
 
 int main() {
-	srand(time(NULL));
+	struct timespec tp;
+
+	clock_gettime(CLOCK_REALTIME, &tp);
+	srand(tp.tv_nsec);
 	printf("%s %s and %s %s.\n",
 	        snap[rand() % SNAP_NUM],
 		action[rand() % ACTION_NUM],
