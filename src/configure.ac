@@ -2,7 +2,7 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.69])
-AC_INIT([snap-hyperbole-generator], [0.2], [neil@themcphails.uk])
+AC_INIT([snap-hyperbole-generator], [0.3], [neil@themcphails.uk])
 AM_INIT_AUTOMAKE([foreign])
 AC_CONFIG_SRCDIR([noun.h])
 AC_CONFIG_HEADERS([config.h])

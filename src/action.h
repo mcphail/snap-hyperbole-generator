@@ -1,4 +1,4 @@
-#define ACTION_NUM 48
+#define ACTION_NUM 53
 #define ACTION_LEN 80
 char action[ACTION_NUM][ACTION_LEN] = {
 	"disrespects my theme",
@@ -48,5 +48,10 @@ char action[ACTION_NUM][ACTION_LEN] = {
 	"is technologically inferior to flatpak",
 	"is ethically inferior to flatpak",
 	"is ethically inferior to my mom",
-	"is ethically inferior to my donkey"
+	"is ethically inferior to my donkey",
+	"should stay hidden in a dot directory",
+	"is literally Microsoft",
+	"will be gone in 2 years",
+	"causes fragmentation",
+	"causes global warming"
 };
